@@ -34,4 +34,4 @@ media
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
-.idea/superlists.iml
+.idea/**/superlists.iml

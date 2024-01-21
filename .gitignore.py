@@ -8,6 +8,7 @@ db.sqlite3
 __pycache__
 db.sqlite3
 media
+.idea/
 # If you are using PyCharm #
 # User-specific stuff
 .idea/**/workspace.xml

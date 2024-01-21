@@ -1,7 +1,10 @@
 from django.test import TestCase
+from django.urls import resolve
+from lists.views import home_page
 
 
-class SmokeTests(TestCase):
+class HomePageTests(TestCase):
 
-    def test_bad_maths(self):
-        self.assertEquals(1 + 1, 3)
+    def test_root_url_resolves_to_home_page_view(self):
+        found = resolve('/')
+        self.assertEquals(found.func, home_page)

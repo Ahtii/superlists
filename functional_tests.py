@@ -34,6 +34,9 @@ class NewVisitorTest(unittest.TestCase):
         self.assertIn(
             '1: Buy peacock feathers', [row.text for row in rows]
         )
+        self.assertIn(
+            '2: Use peacock feathers to make a fly', [row.text for row in rows]
+        )
 
         self.fail('Finish the test!')
 

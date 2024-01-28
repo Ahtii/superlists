@@ -1,0 +1,9 @@
+#id_new_item {
+    margin-top: 2ex;
+}
+
+.jumbotron {
+    background-color: rgb(180, 200, 220);
+    margin: 50px;
+    padding: 20px;
+}
